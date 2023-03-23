@@ -1,0 +1,46 @@
+.delete-alert {
+    h3 {
+        height: 70px;
+        padding-top: .5em;
+        background: #6161ec79 linear-gradient(to top,
+                #ffffff00,
+                #ffffff81);
+        color: var(--fourth-color);
+        text-align: center;
+    }
+    .controls{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        height: 100px;
+        button{
+            width: 15rem;
+            height: 4rem;
+            border: none;
+            border-radius: 1em;
+            font-size: 2.2rem;
+            color: #fff;
+        }
+        .ok{
+            background: #1E2F60 linear-gradient(to top,
+                #ffffff00,
+                #ffffff81);
+            &:hover{
+                background: #1e2e60af linear-gradient(to top,
+                #ffffff00,
+                #ffffff81);
+            }
+        }
+        .cancel{
+            background: #6161ec linear-gradient(to top,
+                #ffffff00,
+                #ffffff81);
+            &:hover{
+                background: #6161ecbe linear-gradient(to top,
+                #ffffff00,
+                #ffffff81);
+            }
+        }
+    }
+}

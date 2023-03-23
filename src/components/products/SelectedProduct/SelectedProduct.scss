@@ -1,0 +1,20 @@
+.selected-product{
+    .inner-container{
+        display: flex;
+        align-items: center;
+        width: 575px;
+        height: 40px;
+        label{
+            color: #1e2e60d3;
+            font-size: 1.7rem;
+            span{
+                margin-left: 5rem;
+                font-size: 1.8rem;
+                font-weight: bold;
+            }
+        }
+    }
+    button{
+        margin-right: 10rem;
+    }
+}

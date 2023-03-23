@@ -1,0 +1,18 @@
+.main-layout {
+    margin-inline: auto;
+    .base-header {
+        background-position: 0;
+    }
+    .add{
+        background-image: url('../../../assets/images/add-cart.jpeg');
+    }
+
+    .selected {
+        background-image: url('../../../assets/images/selected.jpeg');
+        background-size: 100% 170%;
+    }
+
+    .wrapper {
+        background: linear-gradient(0.45turn, #ffffff, #d8d8d8);
+    }
+}

@@ -1,0 +1,14 @@
+.loading-alert {
+    header {
+        background: #6161ec79 linear-gradient(to top,
+                #ffffff00,
+                #ffffff81);
+        transition: background .5s;
+    }
+
+    .error {
+        background: #a3390f linear-gradient(to top,
+                #ffffff00,
+                #ffffff81);
+    }
+}

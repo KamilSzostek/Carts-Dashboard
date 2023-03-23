@@ -1,0 +1,65 @@
+.modal-alert {
+    .backdrop {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #00000080;
+        z-index: 10;
+    }
+
+    dialog {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: 500px;
+        height: 170px;
+        background-color: var(--second-color);
+        border: none;
+        border-radius: 3em;
+        transform: translate(-50%, -50%);
+        opacity: 1;
+        overflow: hidden;
+        z-index: 10;
+    }
+
+    .modal-enter {
+        opacity: .2;
+        transform: translate(-50%, -65%);
+    }
+
+    .modal-enter-active {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+        transition: opacity 300ms, transform 300ms;
+    }
+
+    .modal-exit {
+        opacity: 1;
+        transform: -50%, -50%;
+    }
+
+    .modal-exit-active {
+        opacity: 0;
+        transition: opacity 300ms;
+    }
+
+    .backdrop-enter {
+        opacity: 0;
+    }
+
+    .backdrop-enter-active {
+        opacity: 1;
+        transition: opacity 300ms;
+    }
+
+    .backdrop-exit {
+        opacity: 1;
+    }
+
+    .backdrop-exit-active {
+        opacity: 0;
+        transition: opacity 300ms;
+    }
+}

@@ -1,0 +1,23 @@
+.base-header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    h2{
+        color: #ffffffdc;
+        z-index: 1;
+    }
+    .gradient{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #6161ec50 linear-gradient(
+            to top,
+            #ffffff00,
+            #ffffff81
+        );
+    }
+}

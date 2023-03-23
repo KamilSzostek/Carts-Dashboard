@@ -1,0 +1,35 @@
+.product-card{
+    width: 150px;
+    height: 85px;
+    margin-block: .75em;
+    margin-left: .1em;
+    border-radius: 1em;
+    box-shadow: 0 0 2px #00000079;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+    &:hover{
+        background-color: rgb(250, 250, 250);
+    }
+    figure{
+        height: 100%;
+        text-align: left;
+        img{
+            width: 75px;
+            height: 85px;
+        }
+    }
+    &__info{
+        h5{
+            height: 40px;
+            overflow: hidden;
+        }
+        &__price-regular{
+            text-decoration: line-through;
+        }
+        &__quantity{
+            margin-top: -.75em;
+        }
+    }
+}

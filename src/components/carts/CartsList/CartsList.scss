@@ -1,0 +1,24 @@
+.carts-list{
+    margin-block: 15px;
+    min-width: 200px;
+    width: 200px;
+    border-right: 1px solid #0000003d;
+    .base-header{
+        background-image: url('../../../assets/images/carts.jpeg');
+        background-position: center;
+        background-size: 100% 100%;
+        border-bottom: 3px solid #ffffff7c;
+        h2{
+            font-size: 2.5rem;
+        }
+    }
+    ul{
+        width: 99%;
+        max-height: 685px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+}

@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  max-height: 100vh;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 62.5%;
+  line-height: 1.5em;
+  --first-color: #F1F1FA;
+  --second-color: #F9F8FD;
+  --third-color: #6161EC;
+  --fourth-color: #1E2F60;
+}
+
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.336);
+}
+
+body {
+  background-color: #D7D7E2;
+
+  .App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h2 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  h3 {
+    color: #1e2e60d2;
+    font-size: 2.25rem;
+  }
+
+  h4 {
+    font-size: 2rem;
+  }
+
+  button{
+    background: none;
+    border: none;
+  }
+
+  input, select{
+    width: 30rem;
+    height: 2.5rem;
+    padding-inline: .5em;
+    background-color: var(--first-color);
+    border: 1px solid #00000031;
+    border-radius: .25em;
+    color: #1e2e60b9;
+    font-size: 1.3rem;
+    outline: 1px;
+
+    &:hover, &:focus{
+      background-color: #f1f1fa7c;
+    }
+  }
+}
